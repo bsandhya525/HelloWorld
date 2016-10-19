@@ -5,7 +5,7 @@ public class Greetings {
 	
 	public String displayGreetingMessage()
 	{
-		return "Hello World";
+	    return "Hello World";
 	}
 
 }
