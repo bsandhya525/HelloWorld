@@ -34,4 +34,10 @@ dependencies {
 test{
 
    useTestNG()
+   
+  
+    testLogging {
+        // Show that tests are run in the command-line output
+        events 'started', 'passed'
+    }
 }
