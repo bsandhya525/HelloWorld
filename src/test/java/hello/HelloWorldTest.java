@@ -9,8 +9,8 @@ public class HelloWorldTest {
 	@Test
 	public void testGreetingMessage()
 	{
-		Greetings greetings = new Greetings();
+	      Greetings greetings = new Greetings();
 		
-		Assert.assertEquals("Hello World", greetings.displayGreetingMessage());
+	      Assert.assertEquals("Hello World", greetings.displayGreetingMessage());
 	}
 }
